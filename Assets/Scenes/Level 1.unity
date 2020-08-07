@@ -549,7 +549,7 @@ PrefabInstance:
     - target: {fileID: 2505393334610462919, guid: 0add1766d4717b743a2ecd5bd2894766,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3388717054551043823, guid: 0add1766d4717b743a2ecd5bd2894766,
         type: 3}
@@ -1153,14 +1153,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 150840028, guid: 26c9cf2fa2d2dd8488eee5780f857e53, type: 3}
-      propertyPath: lossLabel
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 457561147, guid: 26c9cf2fa2d2dd8488eee5780f857e53, type: 3}
-      propertyPath: levelTime
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 543373365, guid: 26c9cf2fa2d2dd8488eee5780f857e53, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0

@@ -29,7 +29,7 @@ public class LevelLoader : MonoBehaviour
     public void MainMenu()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
     public void LoadNextScene()
     {
@@ -46,4 +46,10 @@ public class LevelLoader : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(currentSceneIndex);
     }
+
+    public void LoadOptions()
+    {
+        SceneManager.LoadScene("Options Screen");
+    }
+
 }

@@ -5,11 +5,14 @@ using UnityEngine.UI;
 
 public class HealthPoints : MonoBehaviour
 {
-    [SerializeField] int health = 5;
+    [SerializeField] float baseLives = 4;
+    [SerializeField] int damage = 1;
+    float health;
     Text healthText;
 
     void Start()
     {
+        health = baseLives - PlayerPrefsController.GetDifficulty();
         healthText = GetComponent<Text>();
         UpdateDisplay();
     }
@@ -24,7 +27,7 @@ public class HealthPoints : MonoBehaviour
 
     public void TakeLife()
     {
-        health -= 1;
+        health -= damage;
         UpdateDisplay();
         if (health <= 0)
         {

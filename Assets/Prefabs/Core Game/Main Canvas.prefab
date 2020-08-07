@@ -165,7 +165,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7d1a38888be91b4481fbe47d070249e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  baseLives: 4
+  damage: 1
 --- !u!1 &457561145
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a5a9bba3a9aa441842512c17786df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTime: 3
+  levelTime: 50
 --- !u!1 &543373364
 GameObject:
   m_ObjectHideFlags: 0
