@@ -270,6 +270,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &621271775 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5571323085137695987, guid: 428fe9039e5206949b4a8cb0351785db,
+    type: 3}
+  m_PrefabInstance: {fileID: 1637852049}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4419632e5952c248923fd8943c3913b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &984216861
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,7 +529,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1139070489}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 621271775}
+        m_MethodName: LoadNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1157238575
 GameObject:
   m_ObjectHideFlags: 0
